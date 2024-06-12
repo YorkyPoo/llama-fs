@@ -25,7 +25,7 @@ colorama.init()  # Initializes colorama to make it work on Windows as well
 @click.option("--auto-yes", is_flag=True, help="Automatically say yes to all prompts")
 def main(src_path, dst_path, auto_yes=False):
     os.environ["GROQ_API_KEY"] = (
-        "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"
+        "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"
     )
 
     summaries = asyncio.run(get_dir_summaries(src_path))

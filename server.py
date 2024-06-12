@@ -28,7 +28,7 @@ from src.tree_generator import create_file_tree
 from src.watch_utils import Handler
 from src.watch_utils import create_file_tree as create_watch_file_tree
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "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"
 
 
 class Request(BaseModel):
